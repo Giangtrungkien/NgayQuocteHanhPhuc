@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  transition: all 0.4s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav__links {
+  background-color: black;
+  position: sticky;
+  z-index: 99999;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  justify-content: space-between;
+}
+.nav_item {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  display: inline-block;
+}
+.nav_item:hover {
+  background-color: rgb(191, 191, 191);
+  color: black;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.fa-search {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: right;
+}
+.Lich_su {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.Lich_su p {
+  font-size: 30px;
+}
+.button {
+  background-color: black;
+}
+.slide-show img {
+  width: 100%;
+  object-fit: cover;
+  height: 70vh;
+}
+.Y_nghia {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.Y_nghia p {
+  font-size: 30px;
+}
+
+.Huong_ung {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.Huong_ung p {
+  font-size: 30px;
+}
+.Le_ky_niem_da_qua {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.Le_ky_niem_da_qua p {
+  font-size: 30px;
+}
+.contact > p1 {
+  color: gray;
+}
+.name-email-message form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name-email-message input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.name-email-message button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.name-email-message button:hover {
+  background-color: rgb(191, 191, 191);
+  color: black;
+}
+.contact > h1 {
+  font-size: 30px;
+}
+.contact {
+  margin: 50px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer {
+  text-align: center;
+  margin: 2rem 0px;
+}
